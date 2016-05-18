@@ -1,0 +1,8 @@
+
+select sum(total) as total,DATE_FORMAT(createDate,'%Y') as mon from saleorder s  GROUP BY DATE_FORMAT(createDate,'%Y')
+
+
+select count(mobile) as num  ,u.mobile from saleorder s  LEFT JOIN user u on s.userId = u.id GROUP BY u.mobile 
+
+
+select count(s.quantity) quantity,f.foodName from saleorderitem s LEFT JOIN food f on s.foodId=f.id  GROUP BY foodId

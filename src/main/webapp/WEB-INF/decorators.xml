@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/WEB-INF">
+
+    <!-- 此处用来定义不需要过滤的页面 -->
+    <excludes>
+        <pattern>/back</pattern>
+        <pattern>/back/</pattern>
+        <pattern>/api/*</pattern>
+        <pattern>/msg/*</pattern>
+        <pattern>/user/test*</pattern>
+        <!--<pattern>404</pattern>-->
+        <!--<pattern>error</pattern>-->
+        <!--<pattern>/common/error.jsp</pattern>-->
+    </excludes>
+
+    <!--back decorator-->
+    <decorator name="main" page="_back/main.jsp">
+        <pattern>/back/*</pattern>
+    </decorator>
+
+    <!--front decorator-->
+    <decorator name="decorator" page="_front/decorator.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+
+</decorators>

@@ -1,0 +1,27 @@
+#jdbcUrl = jdbc:mysql://192.168.1.11/dcf5a5b47ebc14c9ba1b9c66444c5b9bd?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#user = d2f350b4-8a4b
+#password = 70cc20e6-e4fe
+
+jdbcUrl = jdbc:mysql://localhost/orderSystem?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password = password
+devMode = false
+
+#图片上传路径
+imagePath = D:/OrderSystem/target/OrderSystem/resources/upload
+
+# 微信服务器回调所用的 token
+token= Javen
+
+# 测试用的账号
+appId=wxa9c3511f266e9592
+appSecret=d4624c36b6795d1d99dcf0547af5443d
+
+# 调用百度地图的密钥
+ak=xEuq0k3P5spN9HarIN71hk2r
+
+#是否对消息进行加密，是否对消息进行加密，对应于微信平台的消息加解密方式，false支持明文模式及兼容模式，true支持安全模式及兼容模式
+#encryptMessage=true
+#encodingAesKey=yourEncodingAesKey
+
+
