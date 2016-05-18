@@ -1,8 +1,8 @@
 package com.weixin.sdk.api;
 
-import java.io.IOException;
-
 import com.weixin.sdk.api.SemanticApi;
+
+import java.io.IOException;
 
 public class SemanticApiTest {
 

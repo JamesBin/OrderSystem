@@ -1,9 +1,9 @@
 package com.weixin.sdk.api;
 
-import java.io.IOException;
-
 import com.weixin.sdk.api.JsTicketApi;
 import com.weixin.sdk.api.JsTicketApi.JsApiType;
+
+import java.io.IOException;
 
 
 public class JsTicketApiTest {

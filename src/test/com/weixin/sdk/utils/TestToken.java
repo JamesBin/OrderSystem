@@ -1,8 +1,8 @@
 package com.weixin.sdk.utils;
 
-import java.io.Serializable;
-
 import com.weixin.sdk.utils.RetryUtils.ResultCheck;
+
+import java.io.Serializable;
 
 public class TestToken implements ResultCheck, Serializable {
 

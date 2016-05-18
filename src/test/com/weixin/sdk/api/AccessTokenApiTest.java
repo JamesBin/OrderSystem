@@ -1,13 +1,13 @@
 package com.weixin.sdk.api;
 
-import java.io.IOException;
-
 import com.jfinal.plugin.redis.RedisPlugin;
 import com.weixin.sdk.api.AccessToken;
 import com.weixin.sdk.api.AccessTokenApi;
 import com.weixin.sdk.api.ApiConfig;
 import com.weixin.sdk.api.ApiConfigKit;
 import com.weixin.sdk.cache.RedisAccessTokenCache;
+
+import java.io.IOException;
 
 /**
  * AccessTokenApi 测试

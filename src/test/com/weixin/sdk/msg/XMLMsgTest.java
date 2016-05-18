@@ -1,12 +1,9 @@
 package com.weixin.sdk.msg;
 
+import com.weixin.sdk.msg.InMsgParser;
+import com.weixin.sdk.msg.in.speech_recognition.InSpeechRecognitionResults;
 import org.junit.Assert;
 import org.junit.Test;
-
-import com.weixin.sdk.msg.InMsgParser;
-import com.weixin.sdk.msg.in.*;
-import com.weixin.sdk.msg.in.event.*;
-import com.weixin.sdk.msg.in.speech_recognition.InSpeechRecognitionResults;
 
 public class XMLMsgTest {
 	

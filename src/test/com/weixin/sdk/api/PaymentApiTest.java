@@ -1,12 +1,12 @@
 package com.weixin.sdk.api;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import com.weixin.sdk.api.PaymentApi;
 import com.weixin.sdk.api.PaymentApi.TradeType;
 import com.weixin.sdk.kit.PaymentKit;
 import com.weixin.sdk.utils.JsonUtils;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class PaymentApiTest {
 	//商户相关资料 

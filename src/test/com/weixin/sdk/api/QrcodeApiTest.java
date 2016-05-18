@@ -1,9 +1,9 @@
 package com.weixin.sdk.api;
 
-import java.io.IOException;
-
 import com.weixin.sdk.api.ApiResult;
 import com.weixin.sdk.api.QrcodeApi;
+
+import java.io.IOException;
 
 public class QrcodeApiTest {
 

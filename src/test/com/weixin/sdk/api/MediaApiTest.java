@@ -1,14 +1,13 @@
 package com.weixin.sdk.api;
 
-import java.io.IOException;
-
+import com.weixin.sdk.api.ApiResult;
+import com.weixin.sdk.api.MediaApi;
+import com.weixin.sdk.api.MediaApi.MediaType;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.weixin.sdk.api.ApiResult;
-import com.weixin.sdk.api.MediaApi;
-import com.weixin.sdk.api.MediaApi.MediaType;
+import java.io.IOException;
 
 public class MediaApiTest {
 

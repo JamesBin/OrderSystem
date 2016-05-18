@@ -1,12 +1,12 @@
 package com.weixin.sdk.api;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.jfinal.kit.HashKit;
 import com.weixin.sdk.api.CustomServiceApi;
 import com.weixin.sdk.api.CustomServiceApi.Articles;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomServiceApiTest {
 	

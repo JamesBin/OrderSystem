@@ -1,12 +1,11 @@
 package com.weixin.sdk.utils;
 
-import java.util.concurrent.Callable;
-
+import com.weixin.sdk.utils.JsonUtils;
+import com.weixin.sdk.utils.RetryUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.weixin.sdk.utils.JsonUtils;
-import com.weixin.sdk.utils.RetryUtils;
+import java.util.concurrent.Callable;
 
 public class RetryUtilsTest {
 
